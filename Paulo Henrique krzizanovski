@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flash Cards - Turma 2ºK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Flash Cards Educativos</h1>
+    <p>Turma: 2ºK - Colégio Estadual do Paraná</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Integrantes do grupo:</h2>
+      <ul>
+        <li>Paulo Henrique Krzizanosvski</li>
+        </ul>
+    </section>
+
+    <section class="flashcards-container">
+      <!-- Cada card tem frente e verso -->
+      <div class="flashcard" onclick="flipCard(this)">
+        <div class="card-front">O que é uma reação química?</div>
+        <div class="card-back">É a transformação de substâncias em outras com propriedades diferentes.</div>
+      </div>
+
+      <div class="flashcard" onclick="flipCard(this)">
+        <div class="card-front">Qual a fórmula da água?</div>
+        <div class="card-back">H<sub>2</sub>O</div>
+      </div>
+
+      <div class="flashcard" onclick="flipCard(this)">
+        <div class="card-front">Exemplo de substância pura</div>
+        <div class="card-back">Água destilada</div>
+      </div>
+
+      <div class="flashcard" onclick="flipCard(this)">
+        <div class="card-front">Unidade da pressão</div>
+        <div class="card-back">Pascal (Pa)</div>
+      </div>
+
+      <div class="flashcard" onclick="flipCard(this)">
+        <div class="card-front">Ligação iônica</div>
+        <div class="card-back">Transferência de elétrons entre metais e ametais</div>
+      </div>
+
+      <div class="flashcard" onclick="flipCard(this)">
+        <div class="card-front">Símbolo do sódio</div>
+        <div class="card-back">Na</div>
+      </div>
+
+      <div class="flashcard" onclick="flipCard(this)">
+        <div class="card-front">Mistura heterogênea</div>
+        <div class="card-back">É aquela em que podemos identificar mais de uma fase</div>
+      </div>
+
+      <div class="flashcard" onclick="flipCard(this)">
+        <div class="card-front">Estado físico do gelo</div>
+        <div class="card-back">Sólido</div>
+      </div>
+
+      <div class="flashcard" onclick="flipCard(this)">
+        <div class="card-front">Símbolo do Oxigênio</div>
+        <div class="card-back">O</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto desenvolvido para a disciplina de Química - 2º Ano EM | 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
